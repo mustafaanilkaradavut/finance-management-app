@@ -14,6 +14,3 @@ const Row1 = (_props: Props) => {
 };
 
 export default Row1;
-
-git add .
-git commit -m "Fix formatting"
