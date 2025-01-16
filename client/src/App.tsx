@@ -3,8 +3,7 @@ import { useMemo } from 'react';
 import { themeSettings } from './theme';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './scenes/navbar';
-import { Dashboard } from '@mui/icons-material';
-import Dasboard from '@/scenes/dashboard';
+import Dashboard from './scenes/dashboard';
 
 function App() {
    const theme = useMemo(() => createTheme(themeSettings), []);
