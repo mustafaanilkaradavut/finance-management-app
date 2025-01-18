@@ -9,6 +9,11 @@ export default defineConfig({
       alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }],
    },
    server: {
-      hmr: false, // Hot Module Reloading (HMR) kapatıldı
+      hmr: {
+         overlay: false,
+      },
+      watch: {
+         usePolling: true,
+      },
    },
 });
