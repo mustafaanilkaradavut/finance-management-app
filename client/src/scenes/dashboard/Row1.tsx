@@ -6,6 +6,8 @@ type Props = {};
 
 const Row1 = (_props: Props) => {
    const { data } = useGetKpisQuery();
+   console.log('🚀 ~ Row1 ~ data:', data);
+
    return (
       <>
          <DashboardBox gridArea="a"></DashboardBox>
