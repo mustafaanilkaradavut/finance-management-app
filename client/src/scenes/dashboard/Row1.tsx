@@ -68,7 +68,10 @@ const Row1 = () => {
                subtitle="top line represents revenue, bottom line represents expenses"
                sideText="+4%"
             />
-            <ResponsiveContainer width="100%" height="100%">
+            <ResponsiveContainer
+               key={revenueExpenses ? revenueExpenses.length : 'loading'}
+               width="100%"
+               height="100%">
                <AreaChart
                   width={500}
                   height={400}

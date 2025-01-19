@@ -5,8 +5,8 @@ body,
 #root,
 .app {
    height: 100%;
+   display: 'flexbox';
    width: 100%;
-   min-width: 100vw; 
    font-family: 'Inter', sans-serif;
    background-color: #1f2026;
 }
