@@ -80,7 +80,7 @@ const Row1 = () => {
                      top: 15,
                      right: 25,
                      left: -10,
-                     bottom: 60,
+                     bottom: 10,
                   }}>
                   <defs>
                      <linearGradient
@@ -164,7 +164,7 @@ const Row1 = () => {
                      top: 20,
                      right: 0,
                      left: -10,
-                     bottom: 55,
+                     bottom: 10,
                   }}>
                   <CartesianGrid vertical={false} stroke={palette.grey[800]} />
                   <XAxis
@@ -222,7 +222,7 @@ const Row1 = () => {
                      top: 17,
                      right: 15,
                      left: -5,
-                     bottom: 58,
+                     bottom: 10,
                   }}>
                   <defs>
                      <linearGradient
